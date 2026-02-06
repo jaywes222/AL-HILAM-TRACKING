@@ -5,7 +5,7 @@ import { createBrowserRouter } from "react-router-dom";
 import {
   AboutUs,
   OurServices,
-  OurStorageFacilities,
+  OurTrackingDevices,
   OurClients,
   ContactUs,
   Error400,
@@ -14,7 +14,6 @@ import {
   Error500,
   LandingPage,
   Layout,
-  OurTeam,
 } from "..";
 import { FallbackLoader } from "../components";
 
@@ -49,10 +48,10 @@ const router = createBrowserRouter(
           ),
         },
         {
-          path: "/storage-facilities",
+          path: "/tracking-devices",
           element: (
             <Suspense fallback={<FallbackLoader />}>
-              <OurStorageFacilities />
+              <OurTrackingDevices />
             </Suspense>
           ),
         },
@@ -61,14 +60,6 @@ const router = createBrowserRouter(
           element: (
             <Suspense fallback={<FallbackLoader />}>
               <OurClients />
-            </Suspense>
-          ),
-        },
-        {
-          path: "/our-team",
-          element: (
-            <Suspense fallback={<FallbackLoader />}>
-              <OurTeam />
             </Suspense>
           ),
         },

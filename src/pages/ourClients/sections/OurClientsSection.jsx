@@ -75,7 +75,6 @@ function OurClientsSection() {
             { icon: "🤝", label: "Strategic Partners", value: clients.length },
             { icon: "🌍", label: "Global Reach", value: "2+ Countries" },
             { icon: "🌍", label: "National Reach", value: "10+ Counties" },
-            { icon: "⭐", label: "Partnership Years", value: "5+ Combined" },
           ].map((stat, index) => (
             <div
               key={index}

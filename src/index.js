@@ -2,9 +2,8 @@ import { lazy } from "react";
 
 const AboutUs = lazy(() => import("./pages/aboutUs/AboutUs"));
 const OurServices = lazy(() => import("./pages/ourServices/sections/OurServices"));
-const OurStorageFacilities = lazy(() => import("./pages/storageFacilities/OurStorageFacilities"));
+const OurTrackingDevices = lazy(() => import("./pages/ourTrackingDevices/sections/OurTrackingDevicesSection"))
 const OurClients = lazy(() => import("./pages/ourClients/OurClients"));
-const OurTeam = lazy(() => import("./pages/ourTeam/OurTeam"));
 const ContactUs = lazy(() => import("./pages/contactUs/ContactUs"));
 const Error400 = lazy(() => import("./pages/errorPages/Error400"));
 const Error403 = lazy(() => import("./pages/errorPages/Error403"));
@@ -18,9 +17,8 @@ const Layout = lazy(() => import("./pages/Layout"));
 export {
   AboutUs,
   OurServices,
-  OurStorageFacilities,
+  OurTrackingDevices,
   OurClients,
-  OurTeam,
   ContactUs,
   Error400,
   Error403,

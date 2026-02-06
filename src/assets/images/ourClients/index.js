@@ -20,6 +20,7 @@ import toyopet from "./Clients/toyopet.png";
 import abdula from "./Clients/abdula.jpg";
 import azan from "./Clients/azan.jpg";
 import arham from "./Clients/arham.png";
+import hakki from "./Clients/hakki.co.ke.png";
 
 export {
   faharicars,
@@ -44,4 +45,5 @@ export {
   abdula,
   azan,
   arham,
+  hakki,
 };

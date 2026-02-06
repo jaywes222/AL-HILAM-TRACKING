@@ -28,12 +28,12 @@ function LandingPage() {
   return (
     <>
       <SeoMetadata
-        title="Al-Hilam Auctioneers - Professional Asset Recovery & Auctioneering Services"
-        description="Al-Hilam Auctioneers is Kenya's leading specialist in motor vehicle repossession, auctioneering & commission agents. Serving individuals and financial institutions with competence and professionalism since 1995."
+        title="Al-Hilam Tracking - Advanced Fleet Management and Vehicle Tracking Solutions"
+        description="Al-Hilam Tracking is a leading provider of advanced fleet management and vehicle tracking solutions in Kenya, with a regional presence in Kampala."
         type="website"
-        url="https://www.alhilam.co.ke/"
-        ogImage="https://www.alhilam.co.ke/og-image.png"
-        ogImageAlt="Al-Hilam Auctioneers - Professional Auctioneers & Asset Recovery Specialists"
+        url="https://www.al-hilamtracking.co.ke"
+        ogImage="https://www.al-hilamtracking.co.ke/assets/og/tracking7.jpg"
+        ogImageAlt="Al-Hilam Tracking brand showcasing advanced fleet management and vehicle tracking solutions."
       />
       <div className="w-screen overflow-x-hidden bg-white">
         <ScrollToTop />

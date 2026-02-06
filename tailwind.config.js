@@ -16,7 +16,6 @@ module.exports = {
         "2xl": "1440px",
       },
     },
-
     extend: {
       keyframes: {
         "accordion-down": {
@@ -43,45 +42,51 @@ module.exports = {
         landingPageBg: "url('/landing-bg.png')",
         eventRSVPDesktop: "url('/event-RSVP-desktop.png')",
         eventRSVPMobile: "url('/event-RSVP-mobile.png')",
-        // Palette gradients – reusable across all components
-        "glow-primary":       "linear-gradient(to right, transparent, rgba(46,125,50,0.7), transparent)",
-        "glow-primary-soft":  "linear-gradient(to right, transparent, rgba(46,125,50,0.5), transparent)",
-        "grad-primary":       "linear-gradient(to right, #2E7D32, #FACC15)",
-        "grad-active-bg":     "linear-gradient(to right, rgba(46,125,50,0.15), rgba(202,138,4,0.15))",
-        "grad-active-bg-mobile": "linear-gradient(to right, rgba(46,125,50,0.3), rgba(202,138,4,0.3))",
+        "glow-primary": "linear-gradient(to right, transparent, rgba(96,206,85,0.4), transparent)",
+        "glow-primary-soft": "linear-gradient(to right, transparent, rgba(96,206,85,0.25), transparent)",
+        "grad-primary": "linear-gradient(to right, #A8E6A3, #FBE8A6)", // soft green → soft yellow
+        "grad-active-bg": "linear-gradient(to right, rgba(168,230,163,0.1), rgba(251,232,166,0.1))",
+        "grad-active-bg-mobile": "linear-gradient(to right, rgba(168,230,163,0.2), rgba(251,232,166,0.2))",
       },
       colors: {
         /* ─── Primary system ─── */
-        primary: "#2E7D32",          // deep green  (was #1E88E5 blue)
-        secondary: "#1B2E1B",       // dark forest (was #252533 dark charcoal)
+        primary: "#49CC90",      // swagger green base
+        secondary: "#4caf50",    // slightly darker complementary
 
-        /* ─── Green scale (replaces blue scale) ─── */
+        /* ─── Green scale ─── */
         green: {
-          dark: "#1A4D1A",          // dark green      (was #0D3B66)
-          hero: "#14532D",          // deep forest     (was #0B2F4A)
-          header: "#166534",        // mid green       (was #1F5E79)
-          light: "#F0FDF4",         // mint tint       (was #EAF2FB)
-          footer: "#FACC15",        // bright yellow   (was #00CFFF)
+          dark: "#2E7D32",       // dark forest green
+          hero: "#38B67D",       // lively forest green
+          header: "#60CE55",     // main swagger green
+          light: "#DFFFE1",      // minty/light green tint
+          footer: "#FACC15",     // bright yellow accent stays
         },
 
-        /* ─── Neutral greys (warmed toward green) ─── */
+        /* ─── Neutral greys (green-warmed) ─── */
         grey: {
-          light: "#E8EDE8",         // cool sage       (was #E6EDF5)
-          neutral: "#4A5E4A",       // olive neutral   (was #656767)
-          mild: "#C9D4C4",          // muted sage      (was #DEDADA)
-          dark: "#2B3D2B",          // dark forest     (was #263238)
-          darker: "#6B7D6B",        // mid sage        (was #828282)
+          light: "#EDF7F0",      // very soft, near white
+          neutral: "#7BB78A",    // olive-neutral, mid light
+          mild: "#C4E6D0",       // muted sage/green
+          dark: "#3D6044",       // soft dark forest
+          darker: "#95C7A7",     // mid sage, lightened
         },
 
-        /* ─── Status colors (kept functional) ─── */
+        text: {
+          primary: "#60CE55",     // dark forest green for main text
+          secondary: "#4caf50",   // slightly darker for subheadings
+          muted: "#7BB78A",      // olive-neutral for less emphasis
+        },
+
+
+        /* ─── Status colors ─── */
         error: {
           bg: "#FEF3F2",
           text: "#B42318",
         },
 
-        /* ─── Yellow accent (replaces orange) ─── */
+        /* ─── Yellow accents ─── */
         yellow: {
-          hero: "#CA8A04",          // golden yellow   (was #FF9500)
+          hero: "#Fcd34d",    // soft golden yellow
         },
       },
       maxWidth: {

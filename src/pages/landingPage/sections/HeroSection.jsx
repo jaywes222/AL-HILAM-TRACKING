@@ -1,16 +1,14 @@
 import React, { useState, useEffect, useCallback } from "react";
 import heroImage from "/src/assets/images/hero-section/tracking6.webp";
-import heroImage2 from "/src/assets/images/hero-section/tracking7.jpg";
-import heroImage3 from "/src/assets/images/hero-section/tracking3.jpg";
-import heroImage4 from "/src/assets/images/hero-section/tracking4.jpg";
-import heroImage5 from "/src/assets/images/hero-section/tracking5.jpg";
+import heroImage2 from "/src/assets/images/hero-section/tracking12.jpg";
+import heroImage3 from "/src/assets/images/hero-section/tracking9.jpg";
+import heroImage4 from "/src/assets/images/hero-section/tracking7.jpg";
 
 const SLIDES = [
   { src: heroImage, alt: "Tracking Vehicles" },
   { src: heroImage2, alt: "Tracking Vehicles" },
   { src: heroImage3, alt: "Tracking Vehicles" },
-  { src: heroImage4, alt: "Tracking Vehicles Items" },
-  { src: heroImage5, alt: "Tracking Vehicles" },
+  { src: heroImage4, alt: "Tracking Vehicles" },
 ];
 
 export default function HeroSection() {

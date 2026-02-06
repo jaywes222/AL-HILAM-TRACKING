@@ -37,13 +37,13 @@ function Header() {
             +254 723 261 696
           </a>
           <a href="tel:+254723261696" className="hover:text-white transition-colors">
-            +254 113 091 409
+            +254 729 597 491
           </a>
           <a
-            href="mailto:info.alhilam@gmail.com"
+            href="mailto:omaralhilamtracking2022@gmail.com"
             className="text-green-footer hover:text-white transition-colors"
           >
-            info.alhilam@gmail.com
+            omaralhilamtracking2022@gmail.com
           </a>
         </div>
       </div>
@@ -168,7 +168,7 @@ function Header() {
             {/* Divider */}
             <div className="h-px bg-glow-primary-soft" />
             <p className="text-center text-xs text-grey-darker py-4">
-              Professional Auctioneers & Asset Recovery
+              Advanced Fleet Management & Vehicle Tracking Solutions
             </p>
           </nav>
         </header>

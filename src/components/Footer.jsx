@@ -30,27 +30,27 @@ const branches = [
   {
     name: "Nairobi (HQ)",
     address: "Jeevan Bharati Building",
-    phones: ["+254 723 261 696", "+254 110 478 689"],
-    email: "info.alhilam@gmail.com",
+    phones: ["+254 723 261 696", "+254 729 597 491"],
+    email: "omaralhilamtracking2022@gmail.com",
     highlight: true,
   },
   {
     name: "Mombasa",
     address: "Coast House",
-    phones: ["+254 723 261 696", "+254 110 478 689"],
-    email: "alhilambackoffice@gmail.com",
+    phones: ["+254 723 261 696", "+254 729 597 491"],
+    email: "omaralhilamtracking2022@gmail.com",
   },
   {
     name: "Kisumu",
     address: "Nati House",
-    phones: ["+254 723 261 696", "+254 110 478 689"],
-    email: "alhilambackoffice@gmail.com",
+    phones: ["+254 723 261 696", "+254 729 597 491"],
+    email: "omaralhilamtracking2022@gmail.com",
   },
   {
     name: "Uganda",
     address: "Nakawa, Spring Road",
     phones: ["+256 760 983 837", "+254 723 261 696"],
-    email: "alhilambackoffice@gmail.com",
+    email: "nabiltrackingltd@gmail.com",
   },
 ];
 
@@ -161,7 +161,7 @@ function Footer() {
 
         {/* Bottom */}
         <div className="mt-10 pt-6 border-t border-primary/20 text-center text-sm text-grey-mild">
-          <p>&copy; {year} Al-Hilam Auctioneers | All Rights Reserved</p>
+          <p>&copy; Al-Hilam Tracking | All Rights Reserved</p>
           <p className="text-xs mt-2">
             Powered by{" "}
             <a

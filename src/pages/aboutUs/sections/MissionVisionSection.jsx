@@ -46,7 +46,7 @@ function MissionVisionSection() {
           and direction
         </h3>
         <p className="text-grey-neutral text-center max-w-2xl text-sm md:text-base">
-          What drives us and where we are headed as Al-Hilam Auctioneers
+          What drives us and where we are headed as Al-Hilam Tracking
         </p>
       </div>
 
