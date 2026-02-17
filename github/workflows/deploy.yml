@@ -1,0 +1,43 @@
+on:
+  push:
+    branches:
+      - main
+
+name: Deploy React Website to cPanel on Push
+
+jobs:
+  web-deploy:
+    name: Deploy React Website
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Checkout the repository
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # 2️⃣ Setup Node
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      # 3️⃣ Install dependencies
+      - name: Install Dependencies
+        run: npm install
+
+      # 4️⃣ Build React app
+      - name: Build Project
+        run: npm run build
+
+      # 5️⃣ Deploy ONLY the build folder
+      - name: Deploy to cPanel via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: dist/
+          server-dir: public_html/
+          exclude: |
+            **/.git*
+            **/.github*
