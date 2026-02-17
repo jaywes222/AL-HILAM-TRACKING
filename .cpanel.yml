@@ -1,5 +1,0 @@
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/pupazkov/al-hilamtracking.co.ke
-    - rm -rf $DEPLOYPATH/*
-    - /bin/cp -r dist/* $DEPLOYPATH
