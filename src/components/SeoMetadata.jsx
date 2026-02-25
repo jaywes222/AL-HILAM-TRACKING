@@ -7,14 +7,14 @@ export default function SeoMetadata({
   description,
   type = "website",
   url,
-  ogImage = "https://apis.spaceyatech.com/media/blog-images/syt.png",
-  ogImageAlt = "SpaceYaTech logo, social media handles, website URL, email, and more on a muted background.",
-  siteName = "SpaceYaTech",
+  ogImage = "https://al-hilamtracking.co.ke/assets/images/og/tracking7",
+  ogImageAlt = "Al-Hilam Tracking  logo, social media handles, website URL, email, and more on a muted background.",
+  siteName = "Al-Hilam",
 }) {
   return (
     <Helmet prioritizeSeoTags>
       {/* Standard metadata tags */}
-      <title>{`${title} - SpaceYaTech`}</title>
+      <title>{`${title} - Al-Hilam`}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={url} />
       {/* End Standard metadata tags */}
@@ -33,12 +33,6 @@ export default function SeoMetadata({
       <meta property="og:locale" content="en_US" />
       <meta property="og:locale:alternate" content="en_GB" />
       {/* End Optional OG metadata tags */}
-      {/* Twitter tags */}
-      <meta name="twitter:site" content="@SpaceYaTech" />
-      <meta name="twitter:card" content="summary" />
-      <meta name="twitter:title" content={`${title} - SpaceYaTech`} />
-      <meta name="twitter:description" content={description} />
-      {/* End Twitter tags */}
     </Helmet>
   );
 }

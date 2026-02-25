@@ -44,7 +44,7 @@ const offices = [
     name: "Uganda Office",
     address: "Central Nakawa, Spring Road Modernity, P.O BOX 170401, Kampala",
     phones: ["+256 760 983 837", "+254 723 261 696"],
-    email: "nabiltrackingltd@gmail.com",
+    email: "-",
     coords: [0.3156, 32.5656],
     color: "yellow",
   },
