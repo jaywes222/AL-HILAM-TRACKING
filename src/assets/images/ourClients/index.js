@@ -21,6 +21,13 @@ import abdula from "./Clients/abdula.jpg";
 import azan from "./Clients/azan.jpg";
 import arham from "./Clients/arham.png";
 import hakki from "./Clients/hakki.co.ke.png";
+import eyre from "./Clients/eyre.png";
+import skyracer from "./Clients/skyracer.png";
+import togo from "./Clients/togo.png";
+import classic from "./Clients/classic.jpg";
+import farhan from "./Clients/farhan.jpg";
+import khilji from "./Clients/khilji.png";
+import yanshan from "./Clients/yanshan.jpg";
 
 export {
   faharicars,
@@ -46,4 +53,11 @@ export {
   azan,
   arham,
   hakki,
+  eyre,
+  skyracer,
+  togo,
+  classic,
+  farhan,
+  khilji,
+  yanshan
 };
